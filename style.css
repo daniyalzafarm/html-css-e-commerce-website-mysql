@@ -1,0 +1,648 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    /* font-family: 'Baloo Bhaina 2', cursive; */
+}
+textarea{
+    resize: none;
+}
+
+/* Bootstrap Over Writing */
+.m-6 {
+    margin: 6rem !important;
+  }
+  
+  .mt-6,
+  .my-6 {
+    margin-top: 6rem !important;
+  }
+  
+  .mr-6,
+  .mx-6 {
+    margin-right: 6rem !important;
+  }
+  
+  .mb-6,
+  .my-6 {
+    margin-bottom: 6rem !important;
+  }
+  
+  .ml-6,
+  .mx-6 {
+    margin-left: 6rem !important;
+  }
+
+/* Color Classes */
+.primary-color{
+    color: black;
+}
+.primary-bg-color{
+    background-color: #252525;
+}
+/* .color-white{
+    color: white;
+} */
+.secondary-color{
+    color: #e7ab3c;
+}
+.secondary-bg-color{
+    background-color: #e7ab3c;
+}
+
+/* Link Hover */
+/* a:hover{
+    text-decoration: none;
+    color: white;
+} */
+
+.login_error{
+    color: red;
+}
+.login a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.signout:hover{
+    color:red;
+}
+.signin:hover{
+    color:lightgreen;
+}
+.sociallinks a i:hover{
+    color:#e7ab3c;
+}
+
+#registerLink a{
+    color: #e7ab3c;
+    transition: 0.3s;
+}
+#registerLink a:hover{
+    transform: scale(0.5);
+}
+
+
+
+/* Logo */
+.logo img{
+    width: 160px;
+    height: 40px;
+}
+
+/* Cart */
+
+.cart-img{
+    width: 150px;
+    height: 80px;
+}
+.cart-icon:hover{
+    color: #e7ab3c;
+}
+.cart-price{
+    font-size: large;
+    font-weight: bold;
+}
+
+/* Inner Header */
+/* .inner-header{
+    position: sticky;
+} */
+.search-text{
+    padding: 5px 15px;
+}
+#searchbar:focus{
+    outline: 0px;
+}
+
+#footerMail:focus{
+    outline: 0px;
+}
+/* Navigation Bar */
+
+.navbar-toggler{
+    background-color: #e7ab3c;
+}
+.nav-padding{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+.nav-link{
+    font-size: 18px;
+}
+.dropdown-menu a{
+    background-color: #252525;
+    color: white;
+}
+.dropdown-menu a:hover{
+    background-color: #e7ab3c;
+}
+.nav-item:hover{
+    background-color: #e7ab3c;
+}
+
+
+/* Categories Section */
+/* .categ-item{
+    height: 300px;
+    text-align: center;
+    align-items: center;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding: 0px;
+}
+.categ-inside-text{
+    padding-top: 122px;
+    padding-bottom: 123px;
+    opacity: 0;
+    transition: 0.3s;
+}
+.categ-inside-text:hover{
+    opacity:100;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.categ-inside-text h5 a{
+    text-decoration: none;
+    font-size: 40px;
+    border: 5px solid white;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+}
+#categ-1{
+    background-image: url(./pics/categ\ 1.jpg);
+}
+#categ-2{
+    background-image: url(./pics/categ\ 2.jpg);
+}
+#categ-3{
+    background-image: url(./pics/categ\ 3-min.jpg);
+} */
+
+
+/* Laptop */
+.side-section{
+    height: 400px;
+    text-align: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+
+}
+.inside-section{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.inside-section h3{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+.inside-section h5{
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    font-size: 16px;
+    color: white;
+    transition: 0.2s;
+}
+.inside-section h5:hover{
+    transform: scale(1.2);
+}
+#laptop-sidebar{
+    background-image: url(./pics/laptops/mac-cover-min.jpg);
+}
+#mobile-sidebar{
+    background-image: url(./pics/mobiles/mobile-cover.jpg);
+}
+#accessories-sidebar{
+    background-image: url(./pics/gears/gear-cover-min.jpg);
+}
+
+
+/* Categ Links */
+/* .nav-link1{
+    color: gray;
+    font-size: 20px;
+}
+.nav-link1:hover,.nav-link1.active{
+    color: #252525;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+} */
+
+/* Product Slider */
+.slider{
+  display: flex;  
+  max-width: 2400px;
+}
+.card{
+    width: 240px;
+    height: 400px;
+}
+.card img{
+    width: 240px;
+    height: 200px;
+}
+.card-title{
+    display: block;
+    font-size: 19px;
+    font-weight: bold;
+    color: #252525;
+}
+.card-title:hover{
+    color:#e7ab3c;
+    cursor:default;
+}
+.card-categ{
+    color: #252525;
+}
+.card-categ:hover{
+    color:#e7ab3c;
+}
+.card-btn:hover{
+    background-color: #252525;
+}
+
+
+.shop_card{
+    width: 130px;
+    height: 210px;
+}
+.shop_card img{
+    width: 128px;
+    height: 90px;
+}
+.title{
+    height: 40px;
+}
+.shop_card-title{
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    /* font-weight: bold; */
+    color: #252525;
+}
+.shop_card-title:hover{
+    color:#e7ab3c;
+    cursor:pointer;
+}
+.shop_card-body{
+height: 100px;
+}
+.shop_card-text{
+font-size: 12px;
+font-weight: bold;
+}
+.shop_card-btn{
+    background-color: #e7ab3c;
+}
+.shop_card-btn:hover{
+    background-color: #252525;
+}
+.tag{
+    visibility: hidden;
+}
+
+/* Deal of the Week */
+.deal-color{
+    background-color: #F4F2E6;
+}
+.deal-btn{
+    transition: 0.3s;
+    font-size: 20px;
+}
+.deal-btn:hover{
+    transform: scale(0.98);
+    color: white;
+}
+.profile-btn{
+    transition: 0.3s;
+    font-size: 15px;
+}
+.profile-btn:hover{
+    transform: scale(0.98);
+    color: white;
+}
+
+.cd-item{
+    background-color: white;
+}
+.cd-item p{
+    font-size: 15px;
+    font-weight: bold;
+    color: #6d6d6d;
+}
+.cd-item span{
+    color: #e7ab3c;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* Instagram Section */
+
+.insta-heading h2:after {
+    background:  #e7ab3c;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 10px auto 30px auto;
+}
+.insta-heading a {
+    text-decoration: none;
+    color: #252525;
+
+}
+.insta-heading a :hover{
+    color: #e7ab3c;
+
+}
+
+.instagram .row{
+padding-left: 100px;
+padding-right: 100px;
+}
+.insta-item{
+    text-align: center;
+    align-items: center;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    /* padding: 0px; */
+
+    /* padding: 0.25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    max-width: 100%;
+    height: auto; */
+}
+
+#insta-1{
+    background-image: url(./pics/instagram/insta\ 1.jpg);
+    width: 100%;
+    
+}
+#insta-2{
+    background-image: url(./pics/instagram/insta\ 2.jpg);
+    width: 100%;
+}
+#insta-3{
+    background-image: url(./pics/instagram/insta\ 3.jpg);
+    width: 100%;
+}
+#insta-4{
+    background-image: url(./pics/instagram/insta\ 4.jpg);
+    width: 100%;
+}
+
+.inside-text{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    opacity: 0;
+    transition: 0.3s;
+}
+.inside-text:hover{
+    opacity:100;
+}
+.inside-text i{
+    font-size: 50px;
+    color: white;
+}
+.inside-text h5 a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+/* Benefits Section */
+.benefit-section{
+    background-color: #303030;
+}
+.benefit{
+    padding: 20px;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+.benefit i{
+    font-size: 2.5rem;
+    color: #e7ab3c;
+}
+
+
+/* Footer Section */
+
+.about-info li{
+    color: #aeb1b4;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-left .footer-social a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background: #434445;
+    color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    margin-right: 7px;
+    position: relative;
+    z-index: 1;
+}
+.footer-left .footer-social a:hover {
+    background:#e7ab3c;
+}
+
+.footer-widget h4{
+    color: white;
+}
+.footer-widget li{
+    color: #aeb1b4;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.newsletter h4{
+    color: white;
+}
+.newsletter{
+    color: #aeb1b4;
+}
+.rights{
+    color: #aeb1b4;
+}
+
+
+/* SHOP */
+
+/* page title */
+.page-title{
+    background-color: #303030;
+}
+.page-title h3{
+    font-size: 40px;
+}
+
+/* Contact */
+.contact-item{
+    border-radius: 20px;
+    height: 150px;
+}
+
+.contact-icon{
+    font-size: 40px;
+    color: #aeb1b4;
+}
+.contact-item .col-8 span{
+    color: #aeb1b4;
+    font-size: 24px;
+}
+.contact-item .col-8 p{
+    font-size: 20px;
+}
+
+/* Checkout */
+.login-btn .login, .form-input {
+    color: #252525;
+    font-size: 16px;
+    border: 2px solid #ebebeb;
+    padding: 14px 20px;
+    background: #f3f3f3;
+    width: 100%;
+}
+
+
+
+/* Form */
+
+.form span{
+    color: #e7ab3c;
+}
+.form-field span{
+    color: #e7ab3c;
+}
+
+/*-------- FORM VALIDATION --------*/
+
+/* Input Fields */
+.form-field{
+    position: relative;
+}
+.form-field.success input{
+    border: 3px solid green;
+}
+.form-field.error input{
+    border: 2px solid red;
+}
+
+/* Error Message */
+.form-field small{
+    visibility: hidden;
+}
+/* .form-field.success small{
+    text-color: green;
+} */
+.form-field.error small{
+    color: red;
+    visibility:visible;
+}
+
+.category{
+    color: #252525;
+    font-size: 16px;
+    border: 2px solid #ebebeb;
+    background: #f3f3f3;
+    width: 100%;
+    height: 50%;
+}
+
+#L-descrip{
+    color: #252525;
+    padding: 14px 20px;
+    font-size: 16px;
+    border: 2px solid #ebebeb;
+    background: #f3f3f3;
+    width: 100%;
+}
+
+.product_action i{
+    font-size: 25px;
+}
+
+.total-bill{
+    font-size: 25px;
+}
+.mark{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+}
+.successlogo{
+    transition: 2s;
+    font-size: 100px;
+    animation-name: success;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+}
+@keyframes success{
+    from{
+        font-size: 20px;
+    }
+    to{
+        font-size: 100px;
+    }
+}
+.congratulate{
+    font-size: 25px;
+}
+.profile span{
+    color: #e7ab3c;
+    font-weight: bold;
+}
+#customername{
+    font-size: 3rem;
+}
+
+.suggestionname{
+    font-size: 30px;
+    font-weight: bold;
+}
+.suggestiontext{
+    font-size: 20px;
+}
+
+.profile_logout{
+    color: #252525;
+    font-size: 20px;
+    font-weight: bold;
+}
+.profile_logout:hover{
+    color: red;
+}
+
+.prod-span{
+    font-weight: bold;
+    font-size: 20px;
+}
+.prod-text{
+    font-size: 18px;
+}
+
+.orderid{
+    color: #252525;
+}
+.orderid:hover{
+    color: #e7ab3c;
+}

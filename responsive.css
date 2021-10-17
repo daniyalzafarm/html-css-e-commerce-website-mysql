@@ -1,0 +1,11 @@
+@media (max-width:768px){
+    #top-header,#header-cart-btn{
+        display: none;
+    }
+    #search-section{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+  
